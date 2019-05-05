@@ -16,8 +16,8 @@ Simple config to test Babel Windows 10 symlinked directory problem
     [09:36:52] Task never defined: default
     [09:36:52] To list available tasks, try running: gulp --tasks
 
-**Symlinked Win10 directory**
-Created either using `mklink /D` od `mklink /J`
+**Symlinked Win10 directory**  
+Created either using `mklink /D` or `mklink /J`
 
     [09:39:37] Requiring external module @babel/register
     c:\users\jgroman\documents\junctest\gulpfile.babel.js:1
