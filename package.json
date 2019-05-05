@@ -1,0 +1,21 @@
+{
+  "name": "babel_win10_symlink",
+  "version": "1.0.0",
+  "description": "Babel Win10 symlinked directory test",
+  "main": "gulpfile.babel.js",
+  "author": "JG",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "gulp-babel": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgroman/babel_win10_dir_symlink"
+  }
+}
