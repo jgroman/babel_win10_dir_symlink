@@ -11,6 +11,7 @@ Simple config to test Babel Windows 10 symlinked directory problem
 
 **Standard Win10 directory**
 
+    c:\Users\jgroman\Documents\Project\babeltest>gulp
     [09:36:51] Requiring external module @babel/register
     [09:36:52] Using gulpfile c:\Users\jgroman\Documents\Project\test\gulpfile.babel.js
     [09:36:52] Task never defined: default
@@ -19,6 +20,7 @@ Simple config to test Babel Windows 10 symlinked directory problem
 **Symlinked Win10 directory**  
 Created either using `mklink /D` or `mklink /J`
 
+    c:\junctest>gulp
     [09:39:37] Requiring external module @babel/register
     c:\users\jgroman\documents\junctest\gulpfile.babel.js:1
     (function (exports, require, module, __filename, __dirname) { import gulp from 'gulp';
